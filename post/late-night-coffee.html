@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>凌晨两点的咖啡与代码 - 隙光</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">&lt;void&gt;</a>
+    <div class="nav-links">
+      <a href="../index.html#feed" class="nav-link">归档</a>
+      <a href="#" class="nav-link">关于</a>
+      <a href="#" class="nav-link">RSS</a>
+    </div>
+  </nav>
+
+  <div class="article-page">
+    <div class="parallax-header">
+      <img src="../images/post4.jpg" alt="" class="parallax-img">
+      <div class="parallax-fade"></div>
+    </div>
+
+    <article class="article">
+      <a href="../index.html" class="back-link">&lt; 返回目录</a>
+
+      <div class="article-cat">[TECH]</div>
+      <h1>凌晨两点的咖啡与代码</h1>
+      <span class="article-date">2025.10.18</span>
+
+      <h2>深夜的编译器</h2>
+      <p>凌晨两点，咖啡已经凉了一半，但屏幕上的代码还在流动。</p>
+      <p>这是我一天中最喜欢的时间段。Slack 静默了，邮件停止了，连窗外的城市也进入了低功耗模式。在这个绝对安静的空间里，复杂的系统架构突然变得清晰——就像一幅模糊的照片慢慢对焦。</p>
+
+      <blockquote>
+        <p>"深夜不是一天的结束，而是一天的精华。" —— 这是我某位同事的签名档</p>
+      </blockquote>
+
+      <h2>为什么深夜适合写代码</h2>
+      <p>不是每个人都适合深夜工作，但如果你也是那种"越夜越清醒"的人，你可能会认同这种感觉：</p>
+      <p>白天的编程是<strong>协作</strong>——你需要开会、回复消息、处理突发问题。代码是断断续续的，思维是碎片化的。</p>
+      <p>深夜的编程是<strong>对话</strong>——你和机器之间一对一的对话。没有打断，没有上下文切换。一段函数可以从头写到尾，逻辑链条完整不断裂。</p>
+      <p>这种状态在心理学上叫"心流"（Flow），但我更愿意把它想象成潜入深海——水面上波涛汹涌，但下潜到一定深度后，世界突然安静下来，只剩下你自己的呼吸声。</p>
+
+      <h2>深夜的技术思考</h2>
+      <p>我最近在读一些关于早期计算机先驱的传记。发现了一个有趣的共性：很多人都是在深夜做出最重要的突破。</p>
+      <p>图灵习惯在深夜散步思考；Knuth 每天凌晨 4 点开始工作；Linus Torvalds 至今保持着"深夜提交代码"的习惯。</p>
+      <p>也许这跟编程的本质有关。写代码不是单纯的逻辑推导，它需要创造力、直觉和审美判断。而这些能力，在一天中被各种事务消耗后，反而在深夜——当理性疲劳时——由直觉接管，达到一种奇妙的平衡。</p>
+
+      <h2>关于那杯咖啡</h2>
+      <p>我的咖啡杯是黑色的陶瓷，杯壁很厚。它从不保温太久，但我喜欢这样——喝到后面总是温凉的，提醒我时间在流逝。</p>
+      <p>有时候我会想，几十年后的程序员会怎么看我们这个时代。也许他们不再需要键盘，也许他们直接在脑机接口里"想"出代码。但我想，那种深夜独自面对问题、与世界隔绝的专注感，应该是不会变的。</p>
+      <p>毕竟，<strong>技术会变，但人类思考的孤独本质不会变。</strong></p>
+      <p>而咖啡，大概也会一直存在。</p>
+
+      <!-- Comment Board -->
+      <div class="comment-board">
+        <h3>留言</h3>
+        <p class="hint">你的想法会被保存，但不会公开展示。</p>
+
+        <form class="comment-form" id="comment-form" data-postid="late-night-coffee" data-posttitle="凌晨两点的咖啡与代码">
+          <div class="row">
+            <input type="text" name="name" placeholder="你的名字 *" required>
+            <input type="email" name="email" placeholder="邮箱（可选）">
+          </div>
+          <textarea name="content" placeholder="写下你的想法..." rows="4" required></textarea>
+          <div class="comment-submit-row">
+            <button type="submit" class="comment-btn">发送 &gt;</button>
+            <span class="comment-success" id="comment-success"></span>
+          </div>
+        </form>
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <span>&copy; 2025 Void Blog</span>
+    <span>Powered by Void</span>
+  </footer>
+
+  <script src="../config.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>

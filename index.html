@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiswit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">&lt;void&gt;</a>
+    <div class="nav-links">
+      <a href="#feed" class="nav-link">归档</a>
+      <a href="#" class="nav-link">关于</a>
+      <a href="#" class="nav-link">RSS</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1 id="typewriter" data-text="见证历史">
+      <span class="cursor"></span>
+    </h1>
+    <p>记录代码、设计与深夜的杂思。这是属于数字游民的草稿本。</p>
+  </section>
+
+  <!-- Feed -->
+  <section class="feed" id="feed">
+    <div class="feed-header">
+      <span class="feed-title">文章目录</span>
+      <div class="feed-controls">
+        <button class="feed-btn active" id="sort-date">时间排序</button>
+        <button class="feed-btn" id="sort-pinned">置顶优先</button>
+      </div>
+    </div>
+    <div id="feed-list">
+      <!-- 目录由 main.js 动态生成 -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>&copy; 2025 Void Blog</span>
+    <span>Powered by Void</span>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

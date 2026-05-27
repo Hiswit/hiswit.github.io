@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>极简工作台的构成法则 - 隙光</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">&lt;void&gt;</a>
+    <div class="nav-links">
+      <a href="../index.html#feed" class="nav-link">归档</a>
+      <a href="#" class="nav-link">关于</a>
+      <a href="#" class="nav-link">RSS</a>
+    </div>
+  </nav>
+
+  <div class="article-page">
+    <div class="parallax-header">
+      <img src="../images/post1.jpg" alt="" class="parallax-img">
+      <div class="parallax-fade"></div>
+    </div>
+
+    <article class="article">
+      <a href="../index.html" class="back-link">&lt; 返回目录</a>
+
+      <div class="article-cat">[ESSAY]</div>
+      <h1>极简工作台的构成法则</h1>
+      <span class="article-date">2025.10.24</span>
+
+      <h2>空间的隐喻</h2>
+      <p>我的工作台只有三样东西：一台笔记本电脑、一叠白纸、一支钢笔。这个配置五年没变过。</p>
+      <p>有人问我，为什么不用双显示器？为什么不做站立办公？为什么不加一盏设计师专用的台灯？</p>
+      <p>答案很简单：<strong>每增加一件物品，就增加一种维护的可能，也就增加一个分散注意力的源头。</strong></p>
+
+      <blockquote>
+        <p>"完美不是加无可加，而是减无可减。" —— 安托万·德·圣埃克苏佩里</p>
+      </blockquote>
+
+      <h2>数字工作台的悖论</h2>
+      <p>讽刺的是，我们这些整天谈论"数字极简"的人，电脑屏幕上往往开着二十个标签页。</p>
+      <p>物理空间的极简相对容易——你只需要克制购买欲。但数字空间的极简需要持续的维护。每一个新安装的软件、每一个订阅的 newsletter、每一个关注的社交媒体账号，都在无声地消耗你的认知带宽。</p>
+      <p>我做过一个实验：连续一周记录自己每一次无意识的手机解锁。结果触目惊心——平均每天 87 次，其中 62 次没有任何目的，只是肌肉记忆。</p>
+
+      <h2>三个减法原则</h2>
+      <p><strong>第一，默认删除。</strong> 收到任何新的物品、软件、订阅邀请，默认答案是"不"。除非你能用一句话说明它解决了什么具体问题，否则不要接受。</p>
+      <p><strong>第二，定期审计。</strong> 每个月的第一个周日，我会花 30 分钟检查我的数字环境：卸载一个月没用过的 App，取关不再提供价值的账号，归档完成的项目的文件。</p>
+      <p><strong>第三，物理优先。</strong> 当需要思考复杂问题时，我会关掉电脑，拿出那叠白纸和钢笔。手写强迫你放慢速度，而速度降下来，思维反而能走得更远。</p>
+
+      <h2>留白的力量</h2>
+      <p>日本美学里有个概念叫"间"（Ma），指的是物体之间的空间。没有这个空间，物体就只是堆积；有了这个空间，它们才构成和谐的整体。</p>
+      <p>工作台如此，日程表也是如此。我把每天的日历留出至少 40% 的空白。这些空白不是浪费，而是给突发灵感、深度思考和纯粹发呆留出的余地。</p>
+      <p>最终，极简不是一种风格，而是一种决策框架：<strong>在资源有限的世界里，决定什么值得占据你的空间和时间。</strong></p>
+
+      <!-- Comment Board -->
+      <div class="comment-board">
+        <h3>留言</h3>
+        <p class="hint">你的想法会被保存，但不会公开展示。</p>
+
+        <form class="comment-form" id="comment-form" data-postid="minimalist-workspace" data-posttitle="极简工作台的构成法则">
+          <div class="row">
+            <input type="text" name="name" placeholder="你的名字 *" required>
+            <input type="email" name="email" placeholder="邮箱（可选）">
+          </div>
+          <textarea name="content" placeholder="写下你的想法..." rows="4" required></textarea>
+          <div class="comment-submit-row">
+            <button type="submit" class="comment-btn">发送 &gt;</button>
+            <span class="comment-success" id="comment-success"></span>
+          </div>
+        </form>
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <span>&copy; 2025 Void Blog</span>
+    <span>Powered by Void</span>
+  </footer>
+
+  <script src="../config.js"></script>
+  <script src=
