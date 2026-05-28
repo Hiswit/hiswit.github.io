@@ -11,7 +11,7 @@ const GITHUB_CONFIG = {
   // GitHub Personal Access Token
   // 获取方式：GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token
   // 权限勾选：repo（完整控制仓库）或 public_repo（仅限公开仓库）
-  token: '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',
+  token: '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',
 
   // 留言 Issue 的标签（可选，方便筛选）
   label: 'comment'
